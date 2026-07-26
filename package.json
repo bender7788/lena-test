@@ -1,0 +1,10 @@
+{
+  "name": "lena-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check src/lab.js && node --check src/app.js",
+    "test": "node --test"
+  }
+}
