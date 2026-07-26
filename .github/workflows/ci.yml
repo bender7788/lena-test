@@ -31,7 +31,7 @@ jobs:
       - name: Check JavaScript syntax
         run: npm run check
 
-      - name: Run tests (intentional first-run failure)
+      - name: Run tests
         env:
-          LENA_LAB_CI_DEMO: fail
+          LENA_LAB_CI_DEMO: pass
         run: npm test
